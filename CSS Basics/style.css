@@ -1,0 +1,18 @@
+/* targeting ids using group selectors */
+#p1 , #p3{
+
+    /* color is the property and aqua is a value */
+    color: aqua;
+    background-color: black;
+
+
+}
+
+/* targeting class using single selector */
+.mypara{
+
+    /* by using "!important" value we can stop CSS to overwrite already assign value of same class, doesn't matter where it has written in the code*/
+    background-color: cadetblue !important;
+
+
+}

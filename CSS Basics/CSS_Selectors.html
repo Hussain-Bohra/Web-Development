@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<style>
+
+    /* Example of Universal Selector */
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+/* Example of Element Selector */
+body{
+
+    background-color: black;
+    color: white;
+
+}
+
+/* Another Example of Element Selector */
+h1{
+    background-color: black;
+    color: white;
+    
+    
+}
+/* Example of Class Selector */
+.orderedList{
+    background-color: rgb(6, 8, 8);
+    color: rgb(210, 217, 245);
+    
+}
+
+/* Example of ID Selector */
+#list1{
+    background-color: rgb(48, 2, 2);
+    color: rgb(71, 242, 248);
+    
+}
+
+/* Example of Group Selector */
+p , pre , h4{
+    
+    background-color: black;
+    color: cyan;
+    
+    
+}
+
+/* Example of Psuedo Selector */
+a:hover{
+    color: blueviolet;
+}
+
+</style>
+
+
+<body>
+
+    <h1>CSS Selectors</h1>
+
+    <h3>There are Four Types of CSS Selectors</h3>
+    <ol class="orderedList">
+
+        <li id="list1">Element Selector</li>
+        <li >ID Selector</li>
+        <li >Class Selector</li>
+        <li >Group Selector</li>
+        <li >Universal Selector</li>
+        <li >Psuedo Selector</li>
+
+    </ol>
+
+    <div>
+        <p>Hello I am Paragraph</p>
+        <pre>Hello I am &ltpre&gt tag</pre>
+        <h4>Hello I am Heading 4</h4>
+        <a href="#">I am an Anchor Tag</a>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>

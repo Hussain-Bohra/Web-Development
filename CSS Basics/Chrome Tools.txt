@@ -1,0 +1,11 @@
+Always use Chrome Inspect Element in Chrome
+
+Play with the Websites Contents not with Video Games
+
+Shortcuts :-
+ctrl + shift + i - open inspect element in the website.
+
+ctrl + shift + c - use cursor to see the details of the content of any website.
+
+
+Tip 1: document.body.contentEditable = true , Write this in the console tab of inspect element and Enjoy ;)

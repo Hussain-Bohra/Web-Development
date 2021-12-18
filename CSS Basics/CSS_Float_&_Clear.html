@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #box1{
+            
+            border: 2px solid black;
+            margin-bottom: 12px;
+            padding: 10px 10px;
+            width: 233px;
+            float: left;
+        }
+        
+        #box2{
+            
+            border: 2px solid green;
+            margin-bottom: 12px;
+            padding: 10px 10px;
+            width: 233px;
+            float: right;
+        }
+
+        #box3{
+            
+            border: 2px solid yellow;
+
+            /* when we tell css to put all div to left hand side then there is chance that they can be overlap to another div tag so to stop overlapping we use clear property and it is good practice to use "both" value in clear. */
+            clear: both;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Float and Clear</h1>
+
+    <!-- since we already know that div is block element which means it take full width of the document, but there is a property in CSS that can apply to div so div cannot take it's full width. the property name is float-->
+    <!-- Let's see an example of float -->
+    <div class="container">
+        <p id="box1">
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut fugiat deserunt hic qui ab sed voluptatibu adipisicing elit. Optio, autem blanditiis sequi tenetur dolores incidunt voluptates aut similique quisquam voluptatibus itaque repellendus ex in deleniti dolore doloribus reprehenderit? Sit aliquam in nam placeat quidem quis id, quod laborum similique magnam.
+        </p>
+    </div>
+
+    <div class="container">
+        <p id="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat natus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dicta necessitatibus praesentium, ab recusandae dolores culpa veritatis deserunt aliquam. Reiciendis dolore repellendus voluptatum facere praesentium rerum cumque tenetur harum, beatae quasi architecto nam dolor nisi velit eaque excepturi libero pariatur ducimus perferendis sapiente ipsum! Ducimus soluta maiores eveniet vel sint? officiis repellat possimus neque eius ducimus minus! Harum provident, quae molestiae ex numquam accusantium vitae totam consectetur quaerat sapiente. Totam, cumque quos. Eligendi unde quas facere voluptatem aperiam. Commodi.
+        </p>
+
+    </div>
+
+    <div class="container">
+        <p id="box3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint explicabo totam placeat iusto excepturi necessitatibus! Vel ratione quis nostrum animi aliquam quo neque eum. Quia qui corporis officia saepe ad eveniet, mollitia consequatur, dolor nam, fuga voluptas ullam obcaecati maxime.
+        </p>
+    </div>
+</body>
+</html>

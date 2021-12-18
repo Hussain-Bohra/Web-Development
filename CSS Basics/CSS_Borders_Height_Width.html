@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders, Height and Width</title>
+
+    <style>
+
+        body{
+
+            background-color: black;
+            color: white;
+
+        }
+
+        #box1{
+
+            border: 2px solid rgb(243, 247, 29);
+            background-color: rgb(190, 168, 165);
+
+            /* You can define border style also */
+            /* border-style: dotted; */
+            height: 40px;
+            width: 140px;
+
+            /* border radius works same like individual borders for border left, border right, border top, border bottom etc */
+            border-radius: 13px;
+
+
+        }
+        
+        #box2{
+            
+            border: 2px solid red;
+            height: 40px;
+            width: 140px;
+            
+            border-top-left-radius: 5px;
+            border-left-color: rgb(6, 36, 173);
+
+            /* You can define each bottom colors also */
+            border-top-right-radius: 5px;
+            border-right-color: rgb(90, 4, 139);
+
+            border-top-color: black;
+
+            border-bottom-color: rgb(22, 236, 39);
+            
+        }
+        
+        #box3{
+            
+            border: 2px solid purple;
+            height: 40px;
+            width: 140px;
+
+            border-top-color: darkorange;
+            border-bottom-color: rgb(48, 212, 62);
+            border-left-color: rgb(253, 200, 55);
+            border-right-color: rgb(46, 32, 14);
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <h1>CSS Borders , Height and Width</h1>
+
+    <div id="box1" class="container">
+
+        <p>Hello I am Box1</p>
+
+    </div>
+    <br>
+    
+    
+    <div id="box2" class="container">
+        
+        <p> Hello I am Box2 </p>
+        
+    </div>
+    <br>
+    
+    <div id="box3" class="container">
+        
+        <p> Hello I am Box3</p>
+        
+    </div>
+
+</body>
+</html>

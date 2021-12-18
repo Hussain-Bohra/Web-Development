@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+
+    <h1>Forms in HTML</h1>
+
+    <form action="">
+
+        <!-- although we can use <br> tag too to break lines, but it is not recommended
+            using div tag is highly recommended, because it makes much easier to design forms
+            and div is a block level element, which means it takes full line width. 
+            we will understand in details in later tutorials, So for now
+            don't worry and Keep Learning -->
+        <div>
+
+            Name: <input type="text">
+
+        </div>
+        <br>
+
+        <div>
+
+            Password: <input type="password">
+
+
+        </div>
+        <br>
+
+        <div>
+
+            Email: <input type="email">
+
+        </div>
+        <br>
+
+        <div>
+
+            Select Gender:
+            Male: <input type="radio" name="Gender">
+            Female: <input type="radio" name="Gender">
+
+        </div>
+        <br>
+
+        <div>
+
+            Date of Joining: <input type="date">
+
+        </div>
+        <br>
+
+        <div>
+
+            Write About Yourself:
+            <br>
+            <textarea name="textarea" id="textarea_1" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <br>
+
+
+        <!-- label tag is very useful, for example you want to put check on checkbox
+        without going to square box to tick, you can click on it's label(name),
+        it will automatically insert check on that square box, Cool Na  -->
+        <!-- label will only works if <for> and <id> have the same name -->
+        <div>
+                
+            <label for="mycheck"> I hope You have Read Terms and Conditions:</label>
+            <input type="checkbox" id="mycheck">
+
+        </div>
+        <br>
+
+        <div>
+
+            Submit: <input type="Submit" value="Submit">
+            Reset: <input type="Reset" value="Reset">
+
+        </div>
+
+        <br>
+
+        <div>
+            
+            <label for="mycars">List of Cars:</label>
+            <select name="items" id="mycars">
+
+                <option value="volvo"> Volvo </option>
+                <option value="tesla" selected> Tesla </option>
+                <option value="ford"> Ford </option>
+                <option value="bmw"> BMW </option>
+
+            </select>
+
+        </div>
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
