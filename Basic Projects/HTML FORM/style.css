@@ -2,16 +2,14 @@ body{
 
     background-color: rgb(212, 121, 111);
 
-
-
 }
+
 #btn{
 
     background-color: rgb(74 6 108);
     color: white;
     width: 180px;
     height: 30px;
-
 
 }
 
@@ -21,6 +19,5 @@ body{
     height: 21px;
     background-color: #A90121;
     color: white;
-
 
 }
