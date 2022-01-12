@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links and Images tag in HTML</title>
+    <style>
+        div img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
 </head>
+
 <body>
-    
+
     <h1>links and Images in HTML</h1>
 
     <!-- here we have use an attibute "target=_blank", Which means the link will open in a new Tab -->
     <!-- here in href # means go to homepage -->
-    <a href="#" target="_blank">Google</a>
-    <br>
-    <a href="">Github</a>
-    <br>
-    <a href="">Discord</a>
-    <br>
-    <a href="">Instagram</a>
-    <br>
-    <br>
-    <br>
-    
-    
+    <!-- <div class="container">
+
+        <a href="https://www.google.co.in/" target="_blank">Google</a>
+        <a href="https://github.com/" target="_blank">Github</a>
+        <a href="https://discord.com/" target="_blank">Discord</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div> -->
+
+
+
+    <!-- now we learn add links in our webpage, how about if we apply links on images 
+         let's see an example-->
+
+    <div class="container">
+
+        <a href="https://github.com/" target="_blank">
+
+            <img src="/Images/github.png" alt="github.png">
+
+        </a>
+
+        <a href="https://www.google.co.in/" target="_blank">
+
+            <img src="/Images/google.jpg" alt="google.png">
+
+        </a>
+
+
+        <a href="https://discord.com/" target="_blank">
+
+            <img src="/Images/discord.jpg" alt="discord.jpg">
+
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+
+            <img src="/Images/Instagram.jpg" alt="instagram.jpg">
+
+        </a>
+    </div>
+
+
+
+
+
+
     <!-- here we have use an attibute "alt", If any case the image is unable to load in the browser then user can able to see the message provided in the alt tag -->
     <!-- you can provide height and width attibute in img tag but this is not a good practice,
     so we will set image height , width via CSS. Happy Learning -->
-    <img src="/Images/Success.jpg" alt="Your Connection is Slow, Please try again">
+    <!-- <div class="image-class">
+
+        <img src="/Images/Success.jpg" alt="Your Connection is Slow, Please try again">
+
+    </div> -->
+
 
 
 
 
 </body>
+
 </html>
