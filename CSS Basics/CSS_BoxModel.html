@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,33 @@
     <title>Box Model in HTML</title>
 
     <style>
-
         /* chrome browser add margin and padding by default, in order to reset it's padding we have to use universal selector and set them 0px */
-        *{
+        * {
+            /* shortcut of margin, padding - m0+p0 */
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
         }
 
-        body{
+        body {
             background-color: black;
             color: greenyellow;
         }
 
-        .container1{
+        .container1 {
 
             border: 2px solid yellow;
 
             /* margin and padding works in y(vertical) axis and x(horizontal) axis */
-            margin: 20px 300px ; /* 1st is (y)vertical and 2nd is (x)horizontal*/
-            padding: 20px 50px;  /* 1st is (y)vertical and 2nd is (x)horizontal*/
+            margin: 20px 300px;
+            /* 1st is (y)vertical and 2nd is (x)horizontal*/
+            padding: 20px 50px;
+            /* 1st is (y)vertical and 2nd is (x)horizontal*/
 
         }
 
         /* Example of Psuedo Selector */
-        .container1:hover{
+        .container1:hover {
             border-right-color: turquoise;
             border-left-color: rgb(57, 20, 145);
             border-top-color: rgb(63, 4, 65);
@@ -40,39 +43,58 @@
             color: black;
         }
 
-        #div2:hover{
+        #div2:hover {
 
             background-color: blue;
             color: burlywood;
 
         }
 
-        #div3:hover{
+        #div3:hover {
 
-            background-color:black;
+            background-color: black;
             color: deepskyblue;
 
         }
-
-
-
-
     </style>
 </head>
+
 <body>
 
     <div id="div1" class="container1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur, perferendis. Ducimus expedita eius sed maiores ea.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil
+            ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error
+            porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil
+            laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error
+            voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur,
+            perferendis. Ducimus expedita eius sed maiores ea.</p>
     </div>
 
     <div id="div2" class="container1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur, perferendis. Ducimus expedita eius sed maiores ea.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil
+            ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error
+            porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil
+            laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error
+            voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur,
+            perferendis. Ducimus expedita eius sed maiores ea.</p>
     </div>
 
     <div id="div3" class="container1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur, perferendis. Ducimus expedita eius sed maiores ea.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quibusdam distinctio obcaecati assumenda nihil
+            ipsam, sit harum voluptates voluptas impedit asperiores. Sequi adipisci cupiditate odit sint, voluptas error
+            porro necessitatibus odio obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            laboriosam itaque sed sunt similique. Illo, perferendis. Deleniti, ducimus consequatur praesentium nihil
+            laudantium doloremque nobis magnam nostrum, id ipsam ipsa dicta. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Nam at voluptatum officia laboriosam quia fuga, excepturi tenetur quisquam numquam! Error
+            voluptate tenetur tempora quia animi expedita dolorum aperiam ut, at consequatur porro. Aspernatur,
+            perferendis. Ducimus expedita eius sed maiores ea.</p>
     </div>
 
 
 </body>
+
 </html>
