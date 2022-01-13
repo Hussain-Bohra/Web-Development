@@ -1,4 +1,4 @@
-body {
+* {
   background-color: rgb(42 40 40);
 }
 
@@ -8,11 +8,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  color: white;
 }
 
 #btn {
   background-color: #0043b3;
-  color: white;
   width: 180px;
   height: 30px;
 }
