@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +8,67 @@
     <title>HTML Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Create Account</h1>
-    <h5>Already have an Account? <a href="#"><u> Login</u></a></h5>
-    
+
 
     <form action="mydata.html" method="GET">
-        
-        <div class="container items">
-            <label for="text1">
+        <div class="center">
+            <h1>Create Account</h1>
+            <h5>Already have an Account? <a href="login.html"><u> Login</u></a></h5>
 
-                <input type="text" name="text" id="text1" placeholder="Full Name">
+            <div class="container items">
+                <label for="text1">
 
-            </label>
+                    <input type="text" name="text" id="text1" placeholder="Full Name">
+
+                </label>
+
+            </div>
+            <br>
+            <div class="container items">
+                <label for="email1">
+
+                    <input type="email" name="email" id="email1" placeholder="Enter Email">
+
+                </label>
+
+            </div>
+            <br>
+            <div class="container items">
+                <label for="pass1">
+
+                    <input type="password" name="password" id="pass1" placeholder="Enter Password"
+                        pattern="[a-z].{1,8,}" title="8 Characters Allowed but lowercase inly">
+
+                </label>
+
+            </div>
+            <br>
+            <div class="container">
+                <label for="check1">
+
+                    <input type="checkbox" name="check" id="check1"> I have read and agree to the <u>Terms and
+                        Privacy</u>
+                </label>
+
+            </div>
+            <br>
+
+            <div class="container">
+                <input type="submit" value="submit">
+
+                <input type="button" value="Sign Up" id="btn">
+
+
+            </div>
 
         </div>
-        <br>
-        <div class="container items">
-            <label for="email1">
-                
-                <input type="email" name="email" id="email1" placeholder="Enter Email">
-                
-            </label>
-
-        </div>
-        <br>
-        <div class="container items">
-            <label for="pass1">
-                
-                <input type="password" name="password" id="pass1" placeholder="Enter Password" pattern="[a-z].{1,8,}" title="8 Characters Allowed but lowercase inly">
-                
-            </label>
-            
-        </div>
-        <br>
-        <div class="container">
-            <label for="check1">
-
-                <input type="checkbox" name="check" id="check1"> I have read and agree to the <u>Terms and Privacy</u> 
-            </label>
-
-        </div>
-        <br>
-
-        <div class="container">
-            <input type="submit" value="submit">
-
-            <input type="button" value="Sign Up" id="btn">
-
-
-        </div>
-
 
 
 
     </form>
 
 </body>
+
 </html>

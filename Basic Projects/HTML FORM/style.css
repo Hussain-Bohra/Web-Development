@@ -1,23 +1,27 @@
-body{
-
-    background-color: rgb(212, 121, 111);
-
+body {
+  background-color: rgb(42 40 40);
 }
 
-#btn{
-
-    background-color: rgb(74 6 108);
-    color: white;
-    width: 180px;
-    height: 30px;
-
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#text1 , #email1 ,#pass1 {
+#btn {
+  background-color: #0043b3;
+  color: white;
+  width: 180px;
+  height: 30px;
+}
 
-    width: 188px;
-    height: 21px;
-    background-color: #A90121;
-    color: white;
-
+#text1,
+#email1,
+#pass1 {
+  width: 188px;
+  height: 21px;
+  background-color: #0a0a0a;
+  color: rgb(249 248 245);
 }
