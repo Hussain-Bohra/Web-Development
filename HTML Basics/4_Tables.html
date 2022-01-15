@@ -8,13 +8,16 @@
     <title>Tables in HTML</title>
     <style>
         /* new way to put border in the table */
-        table , th , td{
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
 
-
-
-
+        /* Adding padding from all sides (top, right, bottom, left) in columns */
+        th {
+            padding: 10px;
+        }
     </style>
 
 
@@ -31,11 +34,13 @@
     <table>
 
         <thead>
-            <!-- columns always add in the head -->
-            <!-- <tr> means row -->
+            <!-- columns always add in the thead tag. -->
+            <!-- <tr> means row, we are adding columns in a row. -->
 
+            <!-- we have <caption> tag also to provide caption on a table. -->
+            <caption>Data of Superstars:</caption>
             <tr>
-                <!-- <th> tag is used to add columns in a table -->
+                <!-- <th> tag is used to add columns in bold text in a table. -->
                 <th>Employee ID</th>
                 <th>Employee Name</th>
                 <th>Employee Designation</th>
@@ -45,33 +50,30 @@
         </thead>
 
         <tbody>
-            <!-- data always add in the body -->
+            <!-- data always add in the tbody tag. -->
 
             <tr>
-                <!-- <td> tag is used to add rows in a table -->
-                <td>Hussain Bohra</td>
+                <!-- <td> tag is used to add data rows in a table -->
+                <td>Eddie Brock</td>
                 <td>101</td>
                 <td>Software Engineer</td>
 
             </tr>
             <tr>
-                <td>Vishal Jain</td>
+                <td>Antonio Garfield</td>
                 <td>102</td>
                 <td>Product Manager</td>
 
             </tr>
             <tr>
-                <td>Vikas Sharma</td>
+                <td>David Lee</td>
                 <td>103</td>
                 <td>Android Developer</td>
 
             </tr>
 
 
-
-
         </tbody>
-
 
 
     </table>
